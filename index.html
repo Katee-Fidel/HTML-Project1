@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <center><h1>Welcome to my Portfolio!</h1></center>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h1>Hey, I'm Fidel</h1>
+            <P>I'm a Junior developer based in Nairobi Kenya.<br>
+                I am also a music performer, thespian and a poet.</P>
+
+            <!--audio-->
+            <video width="320" height="240" controls>
+                <source src="media/Noma🔥.MOV" type="audio/mp3">
+                Your browser does not support the music tag
+            </video>
+
+        </section>
+        <!--about Section-->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm currently learning full-stack development with a focus on HTML, CSS, Javascript and backend frameworks like Django and Node js.<br>
+               I enjoy teamwork, debugging and building meaningful projects.</p> 
+        </section>
+
+        <!--Work Section-->
+        <section id="Work">
+            <h2>My Work</h2>
+
+            <!--List of ongoing projects-->
+            <ul>
+                <li>Portfolio Website (HTML)</li>
+                <li>POS web App Concept</li>
+                <li>Django Project</li>
+            </ul>
+
+            <!--Table-->
+            <h3>Projects Overview</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Tech</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>HTML</td>
+                        <td>Done</td>
+                    </tr>
+                    <tr>
+                        <td>POS web app</td>
+                        <td>Python</td>
+                        <td>Working on it</td>
+                    </tr>
+                    <tr>
+                        <td>Django App</td>
+                        <td>Python</td>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="Resume">
+            <h2>Resume</h2>
+
+            <!--Ordered List-->
+            <ol>
+                <li>Education: Bsc. in Information Technology</li>
+                <li>Skills: HTML, CSS, Javascript, Python</li>
+                <li>Experience: Interned at KETRACO ICT Support</li>
+            </ol>
+
+            <p>
+                Download Resume: <a href="media/Certificate (16).pdf" target="_blank">Download</a>
+            </p>
+
+        </section>
+
+        <section id="Contact">
+            <h2>Contact Me</h2>
+
+            <!--Form-->
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <center><p>&copy; 2026 Fidel Katee | Junior developer | All rights reserved</p></center>
+    </footer>
+</body>
+</html>
