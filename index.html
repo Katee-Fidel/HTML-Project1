@@ -3,56 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <nav>
-        
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="work.html">Work</a>
-            <a href="resume.html">Resume</a>
-            <a href="contact.html">Contact</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="work.html" class="nav-link">Work</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
         </nav>
-        <center><h1>Welcome to my Portfolio!</h1></center>
+        <center><h1 class="main-title">Welcome to my Portfolio!</h1></center>
     </header>
 
     <main>
 
-        <section id="home">
-            <h1>Hey, I'm Fidel</h1>
-            <P>I'm a Junior developer based in Nairobi Kenya.<br>
-                I am also a music performer, thespian and a poet.</P>
+        <section id="home" class="hero-section">
+            <h1 class="hero-title">Hey, I'm Fidel</h1>
+            <p class="hero-description">I'm a Junior developer based in Nairobi Kenya.<br>
+                I am also a music performer, thespian and a poet.</p>
 
             <!--audio-->
-            <video width="320" height="240" controls>
+            <video width="320" height="240" controls class="hero-video">
                 <source src="media/Noma🔥.MOV" type="audio/mp3">
                 Your browser does not support the music tag
             </video>
 
         </section>
         <!--about Section-->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I'm currently learning full-stack development with a focus on HTML, CSS, Javascript and backend frameworks like Django and Node js.<br>
-               I enjoy teamwork, debugging and building meaningful projects.</p> 
-        </section>
+        <section id="about" class="about-section">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-description">I'm currently learning full-stack development with a focus on HTML, CSS, Javascript and backend frameworks like Django and Node js.<br>
 
         <!--Work Section-->
-        <section id="Work">
-            <h2>My Work</h2>
+        <section id="Work" class="work-section">
+            <h2 class="section-title">My Work</h2>
 
             <!--List of ongoing projects-->
-            <ul>
+            <ul class="project-list">
                 <li>Portfolio Website (HTML)</li>
                 <li>POS web App Concept</li>
                 <li>Django Project</li>
             </ul>
 
             <!--Table-->
-            <h3>Projects Overview</h3>
-            <table border="1">
+            <h3 class="subsection-title">Projects Overview</h3>
+            <table border="1" class="projects-table">
                 <thead>
                     <tr>
                         <th>Project</th>
@@ -80,24 +80,24 @@
             </table>
         </section>
 
-        <section id="Resume">
-            <h2>Resume</h2>
+        <section id="Resume" class="resume-section">
+            <h2 class="section-title">Resume</h2>
 
             <!--Ordered List-->
-            <ol>
+            <ol class="resume-list">
                 <li>Education: Bsc. in Information Technology</li>
                 <li>Skills: HTML, CSS, Javascript, Python</li>
                 <li>Experience: Interned at KETRACO ICT Support</li>
             </ol>
 
-            <p>
+            <p class="download-link">
                 Download Resume: <a href="media/Certificate (16).pdf" target="_blank">Download</a>
             </p>
 
         </section>
 
-        <section id="Contact">
-            <h2>Contact Me</h2>
+        <section id="Contact" class="contact-section">
+            <h2 class="section-title">Contact Me</h2>
 
             <!--Form-->
             <form>
